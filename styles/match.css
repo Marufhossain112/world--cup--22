@@ -150,7 +150,9 @@ header {
 }
 
 /* main ends here */
-
+hr {
+  border: 1px solid #00ff8e;
+}
 /* footer starts here */
 footer {
   display: flex;
