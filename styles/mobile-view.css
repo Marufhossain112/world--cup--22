@@ -1,0 +1,82 @@
+/* header part starts */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .show-img {
+    left: 10px;
+  }
+  .intro-title {
+    font-size: 1.2em;
+  }
+  .intro-para {
+    font-size: 0.7em;
+  }
+  /* main part */
+  .world-cup-fixtures {
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blogs,.matches {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .blog,.match {
+    width: 286px;
+  }
+  .switch-table {
+    padding: 11px 18px;
+    background-color: #ffffff;
+    max-width: none;
+    height: auto;
+  }
+  .switch-table ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .switch-table ul li {
+    margin: 10px 0px;
+    border: 1px solid #e8e8e8;
+    margin: 6px 0px;
+    border-radius: 5px;
+    padding: 4px 4px;
+  }
+  .view-all-btn {
+    display: none;
+  }
+
+  .goal {
+    font-size: 21px;
+    padding-top: 17px;
+    padding-bottom: 33px;
+  }
+
+  .meet-us > ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer{
+    height: 320px;
+  }
+ 
+  .match-goal{
+    padding-top: 25px;
+  }
+
+}

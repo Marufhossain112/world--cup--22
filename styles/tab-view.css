@@ -1,0 +1,58 @@
+/* header part starts */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .intro-title {
+    font-size: 1.5em;
+  }
+  .intro-para {
+    font-size: 0.9em;
+  }
+  /* main part */
+  .world-cup-fixtures {
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blogs , .matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .blog , .match{
+    width: 225px;
+  }
+  .switch-table {
+    padding: 11px 18px;
+    background-color: #ffffff;
+    max-width: none;
+    height: auto;
+  }
+  .switch-table ul {
+    display: flex;
+  }
+  .switch-table ul li {
+    margin: 10px 0px;
+    border: 1px solid #E8E8E8;
+    margin: 0px 6px;
+    border-radius: 5px;
+    padding: 4px 4px;
+  }
+  .view-all-btn {
+    display: block;
+    margin: 30px auto;
+  }
+  .meet-us ul li a {
+    margin: 0 7px;
+  }
+}

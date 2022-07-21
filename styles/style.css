@@ -1,0 +1,214 @@
+/* importing google-fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* max-width: 800px; */
+  font-family: "Poppins", sans-serif;
+}
+/* header starts */
+header {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #262222;
+  margin-top: 25px;
+  border-radius: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 35px;
+  margin-bottom: 80px;
+}
+
+.show-intro {
+  width: 40%;
+}
+.show-img {
+  width: 50%;
+  position: relative;
+  top: 40px;
+  right: 10px;
+}
+.show-img img {
+  width: 100%;
+}
+.intro-title {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.5em;
+  padding-top: 35px;
+}
+.intro-para {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 15px 0;
+}
+.similiar-button {
+  border: none;
+  color: rgb(111 24 194);
+  background: #00ff8e;
+  padding: 11px 16px 11px 13px;
+  border-radius: 5px;
+  transition: background-color 0.4s ease-out , transform 0.2s;
+}
+
+.similiar-button:hover {
+  transform: translate(4px, 2px);
+  background-color: #ffffff;
+}
+
+.similiar-button:hover .fa-angle-right{
+  transform: translateX(5px);
+}
+/* header ends here */
+
+/* main starts here */
+.world-cup-fixtures {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.switch-table {
+  padding: 11px 18px;
+  background-color: #262222;
+  border-radius: 4px;
+  max-width: 185px;
+  height: 115px;
+}
+.switch-table ul {
+  list-style: none;
+}
+.switch-table ul li {
+  margin: 10px 0px;
+}
+.switch-table ul li a {
+  background: white;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+}
+.upcoming-match {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.all-group {
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+.thumbnail img {
+  width: 100%;
+}
+.special-btn {
+  padding: 5px 41px;
+  border-radius: 5px;
+  background: #00ff8e !important;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.blog {
+  width: 200px;
+  height: 332px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+
+.transfer-btn {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 3px 10px;
+  background: white;
+}
+.blog h4 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.transfer-info {
+  display: flex;
+}
+.transfer-details {
+  padding: 12px 18px;
+}
+.transfer-details h4 {
+  padding: 11px 0;
+}
+.transfer-info {
+  color: rgba(22, 22, 22, 0.7);
+}
+
+.fa-regular {
+  margin-right: 10px;
+}
+
+.transfer-duration {
+  margin-right: 35px;
+}
+/* main ends here */
+
+/* view  all button */
+.view-all-btn {
+  padding: 11px 25px 11px 24px;
+  display: none;
+}
+
+/* footer starts here */
+footer {
+  display: flex;
+  background: #161616;
+  flex-direction: column;
+  align-items: center;
+  height: 275px;
+  margin-top: 60px;
+}
+
+
+footer h4 {
+  color: #ffffff;
+  font-weight: 600;
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+.goal {
+  font-size: 21px;
+}
+
+.meet-us ul {
+  list-style: none;
+  display: flex;
+}
+
+.meet-us ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: 500;
+  margin: 0 15px;
+}
+
+.contact-heading {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.fa-brands {
+  font-size: 20px;
+}
+/* footer ends here */
