@@ -56,6 +56,9 @@
   footer hr{
     width: 440px;
   }
+  .tab-width{
+    width: 470px;
+  }
 
   .meet-us ul li a {
     margin: 0 7px;
